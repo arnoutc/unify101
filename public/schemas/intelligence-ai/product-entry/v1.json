@@ -3,8 +3,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "An Intelligence.AI product entry",
   "type": "object",
-  "required": [ "title", "description", "price", "currency",
-                 "url", "image_url", "timestamp", "sku" ],
+  "required": [ "title", "description", "price", "currency", "url", "image_url", "timestamp", "sku" ],
   "additionalProperties": false,
   "properties": {
      "title": { "type": "string" },
